@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<style>
+*{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table {
+
+    margin-top: 100px;
+}
+ 
+table, th,td{
+    border: 1px solid black;
+    background-color: rgb(228, 227, 227);
+    border-collapse: collapse;
+    align-items: center;
+
+}
+
+#tdd{
+    background-color: rgba(101, 107, 122, 0.651);
+    border-collapse: collapse;
+}
+
+#tdd2{
+    border-collapse: collapse;
+    background-color: rgba(44, 153, 44, 0.863) ;
+}
+
+#td6{
+background-color: white;
+
+}
+</style>
+
+
+<center>
+
+<table>
+    <td colspan="3" id="tdd"><center><big>Cursos da formação WebMobile Front-End Engineer</big></center></td>
+<tr>
+    <th id="tdd">Nome</th>  <!-- Células do cabeçalho da tabela (Linhas)-->
+    <th id="tdd">Módulo</th>
+    <th id="tdd">Carga-horária</th>
+</tr>
+
+<tr>
+    <td>HTML5 Essencial</td>  <!-- Colunas da esquerda para a direita -->
+    <td>| - Content & Design</td>
+    <td>28h</td>
+</tr>
+
+<tr>
+    <td>Photoshop para Web</td>
+    <td>| - Content & Design</td>
+    <td>28h</td>
+</tr>
+
+<tr>
+    <td>WebDesign com CSS3</td>
+    <td>| - Content & Design</td>
+    <td>32h</td>
+</tr>
+
+<tr>
+    <td>Javascrip Essencial</td>
+    <td>|| - Web Applications</td>
+    <td>24h</td>
+</tr>
+
+<tr>
+    <td>jQuery & jQueryUI</td>
+    <td>|| - Web Applications</td>
+    <td>32h</td>
+</tr>
+
+<tr>
+    <td>AJAX & HTML5</td>
+    <td>|| - Web Applications</td>
+    <td>32h</td>
+</tr>
+
+<tr>
+    <td id="tdd"></td>
+    <td id="tdd"></td>
+    <td id="tdd">178h</td>
+</tr>
+    
+
+
+</table>
+
+
+<br><br><br><br>
+
+<table>
+    <td colspan="4" id="tdd2"><big><center>Orçamento de compra</center></big></td>
+<tr>
+    <th id="tdd2">Produto</th>  <!-- Células do cabeçalho da tabela (Linhas)-->
+    <th id="tdd2">Qtde</th>
+    <th id="tdd2">Preço</th>
+    <th id="tdd2">Total Produto</th>
+</tr>
+<tr>
+    <td id="td6" colspan="5" >&nbsp;</td>
+</tr>
+<tr>
+    <td id="td6">Mouse sem fio</td>  <!-- Colunas da esquerda para a direita -->
+    <td id="td6">3</td>
+    <td id="td6">R$ 30,00</td>
+    <td id="td6">R$&nbsp;&nbsp;&nbsp;90,00</td>
+</tr>
+
+<tr>
+    <td id="td6">HD SSD 256GB</td>
+    <td id="td6">1</td>
+    <td id="td6">R$ 250,00</td>
+    <td id="td6">R$&nbsp;&nbsp;&nbsp;90,00</td>
+</tr>
+
+<tr>
+    <td id="td6">Placa de Rede </td>
+    <td id="td6">1</td>
+    <td id="td6">R$ 88,00 </td>
+    <td id="td6">R$&nbsp;&nbsp;&nbsp;88,00</td>
+</tr>
+
+<tr>
+    <td id="td6">Memória 8gb</td>
+    <td id="td6">2</td>
+    <td id="td6">R$ 179,00</td>
+    <td id="td6">R$&nbsp;&nbsp;&nbsp;358,00</td>
+</tr>
+<tr></tr>
+    <td  id="td6"colspan="5" >&nbsp;</td>
+</tr>
+
+<tr>
+    <td colspan="3" id="tdd2">Total a pagar</td>
+<td id="tdd2">R$&nbsp;&nbsp;&nbsp;786,00</td>
+</tr>
+    
+</center>
+
+</table>
+
+
+</body>
+</html>
